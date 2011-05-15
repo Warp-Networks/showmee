@@ -38,7 +38,6 @@ MouseArea {
    property int startY;
 
    onPressed: {
-       console.log("pressed warp")
        startX = mouse.x;
        startY = mouse.y;
    }
