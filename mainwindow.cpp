@@ -34,6 +34,7 @@ MainWindow::MainWindow(QDesktopWidget *parent) :
   QMainWindow(parent)
 {
     this->ui = new QDeclarativeView;
+    this->ui->setResizeMode(QDeclarativeView::SizeRootObjectToView);
     QDeclarativeEngine* engine = this->ui->engine();
 
     PdfPreviewProvider* pdfPreviewProvider = new PdfPreviewProvider();
@@ -84,6 +85,7 @@ MainWindow::MainWindow(QDesktopWidget *parent) :
    );
 
     setCentralWidget(this->ui);
+    showMaximized();
 }
 
 void MainWindow::fullScreen(bool full)
@@ -92,6 +94,7 @@ void MainWindow::fullScreen(bool full)
         showFullScreen();
     } else {
         showNormal();
+        showMaximized();
     }
 }
 

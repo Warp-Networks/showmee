@@ -25,7 +25,6 @@ import Qt 4.7
 Rectangle {
     id: box
     objectName: "box"
-    width: 1024; height: 600
     color: "black"
 
     signal fullScreen(bool full)
