@@ -1,0 +1,26 @@
+ShowMee
+
+PDF presentation viewer for MeeGo using QML/Qt.
+
+USAGE
+
+The application has two different modes. One mode that allows you select a PDF
+presentation using a file browser. And another mode to view the presentation.
+
+In the presentation mode you can change the current page by swiping left or
+right.
+
+In order to return to the selection screen or to quit the application you can
+long press on the screen until a menu pops up.
+
+DEPENDENCIES
+
+poppler-qt4
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2011   Warp Networks, S.L. All rights reserved.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 as
+published by the Free Software Foundation.

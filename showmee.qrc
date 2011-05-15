@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ShowMee.qml</file>
+        <file>WarpGestureArea.qml</file>
+        <file>Menu.qml</file>
+        <file>images/preview.png</file>
+        <file>images/cancel.png</file>
+        <file>images/exit.png</file>
+        <file>images/back_dir.png</file>
+        <file>images/enter_dir.png</file>
+        <file>images/warp_big.png</file>
+        <file>images/warp_small.png</file>
+        <file>About.qml</file>
+    </qresource>
+</RCC>

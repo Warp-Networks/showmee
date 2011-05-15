@@ -1,0 +1,22 @@
+Name: showmee
+Summary: PDF Presentation Viewer
+Version: 0.0.1
+Release: 1
+Group: Development/Tools
+License: LGPLv2.1
+URL: http://www.warp.es
+Sources:
+    - "%{name}-%{version}.tar.bz2"
+Description: PDF Presentation Viewer
+
+PkgConfigBR:
+    - QtCore >= 4.6.0
+    - QtOpenGL
+    - QtGui
+    - poppler-qt4
+Configure: none
+Builder: none
+Files:
+    - "%{_bindir}/showmee"
+    - "%{_datadir}/applications/*.desktop"
+

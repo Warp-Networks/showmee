@@ -1,0 +1,9 @@
+Install MeeGo 1.1 SDK:
+http://wiki.meego.com/SDK/Docs/1.1/Getting_started_with_the_MeeGo_SDK_for_Linux
+
+Launch and configure the Qt Creator bundled with the SDK (the SDK files are installed under /opt):
+$ meego-sdk-qt-creator showmee.pro
+
+Code :)
+
+You do not need a MeeGo target. This is a very simple application and it is not tied to any particular hardware. It uses regular mouse events for the touch interface.

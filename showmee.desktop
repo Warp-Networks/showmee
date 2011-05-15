@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ShowMee
+Comment=PDF Presentation Viewer
+Exec=showmee
+Categories=Office;
+Icon=textures
+Type=Application
+Terminal=false
+StartupNotify=true
+
